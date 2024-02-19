@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: black;
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel1{
+    height: 3rem;
+    width: 8rem;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    height: 3.7rem;
+    width: 7rem;
+    background-size: cover;
+}
+.panel2{
+    color: white;
+    padding: .7rem;
+}
+.font-small{
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+} 
+.border{
+    border: solid transparent 1px;
+}
+.border:hover{
+    border: solid white 1px;
+}
+.icon{
+    display: flex;
+    margin-right: 1rem;
+}
+.icon h5{
+    margin-left: .3rem;
+}
+.nav-search{
+    display: flex;
+    height: 2.5rem;
+    width: 70rem;
+    border: 3px orange solid;
+    border-radius:6px;
+}
+.search-select{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.search-input{
+    /* height: 1.8rem;
+    border: 2px orange solid; */
+    width: 100%;
+}
+.symbol{
+    background-color: rgb(109, 109, 62);
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel3{
+    color: white;
+    display: flex;
+}
+.panel3 .flag{
+    margin-right: .5rem;
+}
+h5{
+    color: white;
+}
+.panel5{
+}
+.cart{
+    color: white;
+}
+.BelowNavContainer{
+    background-color: rgb(82, 82, 82);
+}
+.below-nav{
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.hero-img{
+    background-image: url(images/hero_image.jpg);
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+}
+.hero-msg{
+    background-color: white;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:18rem
+}
+.hero-link{
+    color: rgb(77, 77, 124);
+}
+.shopping-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shopping-sec .box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 1.5rem;
+
+}
+.box-cap{
+    color: black;
+    padding: .5rem;
+    margin-left: 1rem;
+
+}
+.box-img{
+    background-image: url(images/box1_image.jpg);
+    height: 280px;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.box-bottom{
+    color: rgb(80, 136, 136);
+    padding: 2rem;
+}
+.foot-panel1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(65, 62, 62);
+    color: white;
+    padding: 1rem;
+    height: 12rem;
+
+}
+.foot-panel2 ul a{
+    display: flex;
+}
+.foot-panel3{
+    border-top: 2px solid white;
+}
